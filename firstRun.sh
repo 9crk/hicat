@@ -7,4 +7,4 @@ ln -s /hicat/scp /bin/scp
 mkdir /var/lib/misc/ -p
 touch /var/lib/misc/udhcpd.leases
 ifconfig ra0 192.168.1.1
-udhcpd ./udhcpd.conf &
+udhcpd ./udhcpd.conf
